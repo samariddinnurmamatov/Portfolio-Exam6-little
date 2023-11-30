@@ -1,0 +1,125 @@
+
+/* USERLAYOUT START */
+.All{
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+/* USERLAYOUT END */
+
+
+/* ASIDBAR START */
+#stc{
+  position: sticky;
+  top: 50px;
+  width: 270px;
+  height: 650px;
+}
+.sidebar{
+  border: 1px solid hsl(0, 0%, 22%);
+  border-radius: 15px;
+  width: 100%;
+  padding: 30px 25px;
+  background-color: hsl(240, 2%, 12%);
+}
+.info_img_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  padding-top: 20px;
+}
+.info_img_text img{
+  border-radius: 10px;
+  width: 60%;
+}
+.info_img_text p{
+  background-color: hsl(240, 1%, 17%);
+  color: white;
+  padding: 3px 15px;
+  border-radius: 10px;
+  padding-top: 6px;
+}
+
+
+
+.info_icon{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 45px;
+}
+
+.info_email {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.info_email .spa{
+  font-size: 14px;
+  color: gray;
+}
+.info_email p{
+  font-size: 14px;
+  padding-top: 3px;
+}
+
+.info_email .icon{
+  background-color: linear-gradient(to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50%);
+  padding: 9px;
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 22%);
+  box-shadow:  -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+}
+
+
+.sidebar .icon_ins_face{
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  cursor: pointer;
+}
+.sidebar .icon_ins_face span:hover{
+  margin-top: -5px;
+}
+
+/* ASIDBAR END */
+
+/* HEADER START */
+
+.header{
+  width: 100%;
+  border: 1px solid hsl(0, 0%, 22%);
+  background-color: hsl(240, 2%, 12%);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.header .lnk{
+  display: flex;
+  gap: 20px;
+  float: right;
+  background-color: hsla(240, 1%, 17%, 0.75);
+  padding: 18px 25px;
+  border-radius: 0px 0px 0px 15px;
+  -webkit-border-radius: 0px 0px 0px 15px;
+  -moz-border-radius: 0px 0px 0px 15px;
+  border: 1px solid hsl(0, 0%, 22%);
+}
+.link_rang{
+  text-decoration: none;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.83);
+}
+.link_rang.active{
+  color: hsl(45, 100%, 72%) !important;
+}
+
+/* HEADER END */
